@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HP/Desktop/C++/Word_ladder_bfs_leetcode.cpp
+bits/stdc++.h
+-
+poco/JSON/include/Poco/JSON/Array.h
+-
+

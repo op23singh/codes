@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\graph_minimum_distance_to_connect_two_islands.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\graph_minimum_distance_to_connect_two_islands.dir/objects.a @CMakeFiles\graph_minimum_distance_to_connect_two_islands.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\graph_minimum_distance_to_connect_two_islands.dir/objects.a -Wl,--no-whole-archive -o graph_minimum_distance_to_connect_two_islands.exe -Wl,--out-implib,libgraph_minimum_distance_to_connect_two_islands.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\graph_minimum_distance_to_connect_two_islands.dir\linklibs.rsp

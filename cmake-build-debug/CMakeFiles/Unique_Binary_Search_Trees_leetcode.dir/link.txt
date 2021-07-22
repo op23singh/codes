@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Unique_Binary_Search_Trees_leetcode.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Unique_Binary_Search_Trees_leetcode.dir/objects.a @CMakeFiles\Unique_Binary_Search_Trees_leetcode.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Unique_Binary_Search_Trees_leetcode.dir/objects.a -Wl,--no-whole-archive -o Unique_Binary_Search_Trees_leetcode.exe -Wl,--out-implib,libUnique_Binary_Search_Trees_leetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Unique_Binary_Search_Trees_leetcode.dir\linklibs.rsp

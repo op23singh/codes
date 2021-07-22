@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\when_ranks_are_not_given_repeating.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\when_ranks_are_not_given_repeating.dir/objects.a @CMakeFiles\when_ranks_are_not_given_repeating.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\when_ranks_are_not_given_repeating.dir/objects.a -Wl,--no-whole-archive -o when_ranks_are_not_given_repeating.exe -Wl,--out-implib,libwhen_ranks_are_not_given_repeating.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\when_ranks_are_not_given_repeating.dir\linklibs.rsp

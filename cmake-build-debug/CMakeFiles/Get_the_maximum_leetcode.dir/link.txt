@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Get_the_maximum_leetcode.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Get_the_maximum_leetcode.dir/objects.a @CMakeFiles\Get_the_maximum_leetcode.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Get_the_maximum_leetcode.dir/objects.a -Wl,--no-whole-archive -o Get_the_maximum_leetcode.exe -Wl,--out-implib,libGet_the_maximum_leetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Get_the_maximum_leetcode.dir\linklibs.rsp

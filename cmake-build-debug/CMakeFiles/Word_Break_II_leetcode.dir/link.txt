@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Word_Break_II_leetcode.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Word_Break_II_leetcode.dir/objects.a @CMakeFiles\Word_Break_II_leetcode.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Word_Break_II_leetcode.dir/objects.a -Wl,--no-whole-archive -o Word_Break_II_leetcode.exe -Wl,--out-implib,libWord_Break_II_leetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Word_Break_II_leetcode.dir\linklibs.rsp

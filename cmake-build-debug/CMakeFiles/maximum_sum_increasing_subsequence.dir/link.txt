@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\maximum_sum_increasing_subsequence.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\maximum_sum_increasing_subsequence.dir/objects.a @CMakeFiles\maximum_sum_increasing_subsequence.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\maximum_sum_increasing_subsequence.dir/objects.a -Wl,--no-whole-archive -o maximum_sum_increasing_subsequence.exe -Wl,--out-implib,libmaximum_sum_increasing_subsequence.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\maximum_sum_increasing_subsequence.dir\linklibs.rsp
