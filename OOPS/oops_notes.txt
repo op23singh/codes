@@ -1,0 +1,15 @@
+Abstraction- used to hide irrelevant data from the user for example hiding how the charger charge to phone
+of the user or hiding the internal working of break or accelerator from user in the car.
+
+Encapsulation- it also hides irrelevant information from the user but in addition it provides security
+so that the 3rd party cannot access or change that variable for example hiding and protecting the data
+from the student from changing marks of their subjects.
+
+this keyword holds the address of the current object.something who holds a address is considered as pointer
+so this keyword is a pointer
+
+copy constructor creates an object which is a copy of another constructor .
+
+copy assignment operator
+
+destructor is used to deallocate the memory of objects
