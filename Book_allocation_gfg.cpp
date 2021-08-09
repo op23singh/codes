@@ -25,6 +25,8 @@ bool check(int a[], int n, int target, int k) {
         sum += a[i];
         if (sum > target) {
             sum = a[i];
+            if (sum > target)// condition one usually forgets to write if the current element is greater than target which is mid in this case
+                return false;
             student++;
             if (student > k)return false;
         }
@@ -33,7 +35,7 @@ bool check(int a[], int n, int target, int k) {
 }
 
 int findPages(int a[], int n, int m) {
-    int start = *max_element(a, a + n);
+    int start = 0;
     int end = accumulate(a, a + n, 0);
     int res = 0;
     while (start <= end) {
@@ -46,7 +48,7 @@ int findPages(int a[], int n, int m) {
 
 int main() {
     fio;
-    f_io();
+//    f_io();
     int n, k;
     cin >> n >> k;
     int a[n];

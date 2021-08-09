@@ -86,23 +86,21 @@ public:
 
 int main() {
     double x;
-    cin>>x;
-    double start=1.0;
-    double end=x;
-    double precision=0.0000001;
-    double ans=0;
-    double mid=start+(end-start)/2.0;
-    while(start<=end){
-        double temp=mid*mid;
-        if(abs(temp-x)<=precision){
-            ans=mid;
+    cin >> x;
+    double start = 1.0;
+    double end = x;
+    double precision = 0.0000001;
+    double ans = 0;
+    double mid = start + (end - start) / 2.0;
+    while (start <= end) {
+        double temp = mid * mid;
+        if (abs(temp - x) <= precision) {
+            ans = mid;
             break;
-        }
-        else if(mid*mid>x){
-           end=mid;
-        }
-        else start=mid;
-        mid=start+(end-start)/2.0;
+        } else if (mid * mid > x) {
+            end = mid;
+        } else start = mid;
+        mid = start + (end - start) / 2.0;
     }
-    cout<<fixed<<setprecision(16)<<ans<<endl;
+    cout << fixed << setprecision(16) << ans << endl;
 }

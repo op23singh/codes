@@ -1,3 +1,3 @@
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\interview_dp_coin_change.dir/objects.a
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\interview_dp_coin_change.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\interview_dp_coin_change.dir/objects.a @CMakeFiles\interview_dp_coin_change.dir\objects1.rsp
 C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\interview_dp_coin_change.dir/objects.a -Wl,--no-whole-archive -o interview_dp_coin_change.exe -Wl,--out-implib,libinterview_dp_coin_change.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\interview_dp_coin_change.dir\linklibs.rsp

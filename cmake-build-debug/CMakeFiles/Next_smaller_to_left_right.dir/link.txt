@@ -1,3 +1,3 @@
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Next_smaller_to_left_right.dir/objects.a
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Next_smaller_to_left_right.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\Next_smaller_to_left_right.dir/objects.a @CMakeFiles\Next_smaller_to_left_right.dir\objects1.rsp
 C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Next_smaller_to_left_right.dir/objects.a -Wl,--no-whole-archive -o Next_smaller_to_left_right.exe -Wl,--out-implib,libNext_smaller_to_left_right.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Next_smaller_to_left_right.dir\linklibs.rsp

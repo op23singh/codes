@@ -21,7 +21,7 @@ void f_io() {
 
 vector<int> nsr(vector<int> &a) {
     int n = a.size();
-    stack< pair<int, int> > st;
+    stack<pair<int, int> > st;
     vii v;
     v.pb(a.size());
     for (int i = n - 1; i >= 0; i--) {
@@ -38,8 +38,7 @@ vector<int> nsr(vector<int> &a) {
         }
         st.push({a[i], i});
     }
-
-    reverse(v.begin(),v.end());
+    reverse(v.begin(), v.end());
     return v;
 }
 
@@ -70,7 +69,7 @@ int largestRectangleArea(vector<int> &v) {
     vector<int> nsml = nsl(v);
     int ma = 0;
     for (int i = 0; i < v.size(); i++) {
-        ma=max(ma,v[i]* abs(nsmr[i]-nsml[i]-1));
+        ma = max(ma, v[i] * abs(nsmr[i] - nsml[i] - 1));
     }
     return ma;
 }
@@ -82,5 +81,5 @@ int main() {
     cin >> n;
     vector<int> a(n, 0);
     rep(i, n)cin >> a[i];
-    cout<<largestRectangleArea(a);
+    cout << largestRectangleArea(a);
 }

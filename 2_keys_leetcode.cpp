@@ -83,14 +83,24 @@ public:
         }
     }
 };
-ll dp[301][4];
-int N;
-int solve(int n,int operation){
 
+int dp[1001][1001];
+
+int solve(int n, int number, int copied) {
+    if (number > n or number == 0 or copied > n)return 1005;
+    if (number == n)return 0;
+    if (dp[number][copied] != -1)return dp[number][copied];
+    if (copied == 0)
+        return dp[number][copied] = 1 + solve(n, number, number);
+    else {
+        return dp[number][copied] = min(2 + solve(n, number * 2, number), 1 + solve(n, number + copied, copied));
+    }
 }
+
 int minSteps(int n) {
-   N=n;
-   solve(0) ;
+    if (n <= 1)return 0;
+    memset(dp, -1, sizeof(dp));
+    return solve(n, 1, 0);
 }
 
 int main() {

@@ -57,10 +57,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = C:\Users\HP\Desktop\C++\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -493,6 +493,19 @@ kstones_atcoder/fast:
 .PHONY : kstones_atcoder/fast
 
 #=============================================================================
+# Target rules for targets named Largest_Divisible_subset_leetcode
+
+# Build rule for target.
+Largest_Divisible_subset_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Largest_Divisible_subset_leetcode
+.PHONY : Largest_Divisible_subset_leetcode
+
+# fast build rule for target.
+Largest_Divisible_subset_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Largest_Divisible_subset_leetcode.dir\build.make CMakeFiles/Largest_Divisible_subset_leetcode.dir/build
+.PHONY : Largest_Divisible_subset_leetcode/fast
+
+#=============================================================================
 # Target rules for targets named Count_and_say_leetcode
 
 # Build rule for target.
@@ -790,6 +803,19 @@ Target_sum_leetcode: cmake_check_build_system
 Target_sum_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Target_sum_leetcode.dir\build.make CMakeFiles/Target_sum_leetcode.dir/build
 .PHONY : Target_sum_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named Maximize_score_after_n_operations
+
+# Build rule for target.
+Maximize_score_after_n_operations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Maximize_score_after_n_operations
+.PHONY : Maximize_score_after_n_operations
+
+# fast build rule for target.
+Maximize_score_after_n_operations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximize_score_after_n_operations.dir\build.make CMakeFiles/Maximize_score_after_n_operations.dir/build
+.PHONY : Maximize_score_after_n_operations/fast
 
 #=============================================================================
 # Target rules for targets named Path_with_Maximum_Gold_leetcode
@@ -1403,6 +1429,19 @@ dp_stone_game_leetcode/fast:
 .PHONY : dp_stone_game_leetcode/fast
 
 #=============================================================================
+# Target rules for targets named Time_needed_to_inform_all_employees_leetcode_graph
+
+# Build rule for target.
+Time_needed_to_inform_all_employees_leetcode_graph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Time_needed_to_inform_all_employees_leetcode_graph
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph
+
+# fast build rule for target.
+Time_needed_to_inform_all_employees_leetcode_graph/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Time_needed_to_inform_all_employees_leetcode_graph.dir\build.make CMakeFiles/Time_needed_to_inform_all_employees_leetcode_graph.dir/build
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph/fast
+
+#=============================================================================
 # Target rules for targets named dp_Partition_array_for_Maximum_sum_leetcode
 
 # Build rule for target.
@@ -1897,6 +1936,19 @@ intrvw_microsoft/fast:
 .PHONY : intrvw_microsoft/fast
 
 #=============================================================================
+# Target rules for targets named Minimum_height_trees_leetcode
+
+# Build rule for target.
+Minimum_height_trees_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Minimum_height_trees_leetcode
+.PHONY : Minimum_height_trees_leetcode
+
+# fast build rule for target.
+Minimum_height_trees_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_height_trees_leetcode.dir\build.make CMakeFiles/Minimum_height_trees_leetcode.dir/build
+.PHONY : Minimum_height_trees_leetcode/fast
+
+#=============================================================================
 # Target rules for targets named Unique_Binary_Search_Trees_leetcode
 
 # Build rule for target.
@@ -1947,19 +1999,6 @@ Construct_binary_Tree_from_inorder_and_preorder_traversal: cmake_check_build_sys
 Construct_binary_Tree_from_inorder_and_preorder_traversal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Construct_binary_Tree_from_inorder_and_preorder_traversal.dir\build.make CMakeFiles/Construct_binary_Tree_from_inorder_and_preorder_traversal.dir/build
 .PHONY : Construct_binary_Tree_from_inorder_and_preorder_traversal/fast
-
-#=============================================================================
-# Target rules for targets named oops_first_program_C++
-
-# Build rule for target.
-oops_first_program_C++: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 oops_first_program_C++
-.PHONY : oops_first_program_C++
-
-# fast build rule for target.
-oops_first_program_C++/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oops_first_program_C++.dir\build.make CMakeFiles/oops_first_program_C++.dir/build
-.PHONY : oops_first_program_C++/fast
 
 #=============================================================================
 # Target rules for targets named kadane_algo_gfg
@@ -2064,6 +2103,175 @@ Find_Count_of_single_valued_subtrees_leetcode: cmake_check_build_system
 Find_Count_of_single_valued_subtrees_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Find_Count_of_single_valued_subtrees_leetcode.dir\build.make CMakeFiles/Find_Count_of_single_valued_subtrees_leetcode.dir/build
 .PHONY : Find_Count_of_single_valued_subtrees_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named Catch_Theives_Salesforces_interview
+
+# Build rule for target.
+Catch_Theives_Salesforces_interview: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Catch_Theives_Salesforces_interview
+.PHONY : Catch_Theives_Salesforces_interview
+
+# fast build rule for target.
+Catch_Theives_Salesforces_interview/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Catch_Theives_Salesforces_interview.dir\build.make CMakeFiles/Catch_Theives_Salesforces_interview.dir/build
+.PHONY : Catch_Theives_Salesforces_interview/fast
+
+#=============================================================================
+# Target rules for targets named oops_first_program_C++
+
+# Build rule for target.
+oops_first_program_C++: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 oops_first_program_C++
+.PHONY : oops_first_program_C++
+
+# fast build rule for target.
+oops_first_program_C++/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oops_first_program_C++.dir\build.make CMakeFiles/oops_first_program_C++.dir/build
+.PHONY : oops_first_program_C++/fast
+
+#=============================================================================
+# Target rules for targets named Max_Area_of_Island_leetcode
+
+# Build rule for target.
+Max_Area_of_Island_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Max_Area_of_Island_leetcode
+.PHONY : Max_Area_of_Island_leetcode
+
+# fast build rule for target.
+Max_Area_of_Island_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_Area_of_Island_leetcode.dir\build.make CMakeFiles/Max_Area_of_Island_leetcode.dir/build
+.PHONY : Max_Area_of_Island_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named Max_consecutive_ones_III
+
+# Build rule for target.
+Max_consecutive_ones_III: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Max_consecutive_ones_III
+.PHONY : Max_consecutive_ones_III
+
+# fast build rule for target.
+Max_consecutive_ones_III/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_consecutive_ones_III.dir\build.make CMakeFiles/Max_consecutive_ones_III.dir/build
+.PHONY : Max_consecutive_ones_III/fast
+
+#=============================================================================
+# Target rules for targets named Maximum_length_of_concatenated_string_of_unique_characters_leetcode
+
+# Build rule for target.
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Maximum_length_of_concatenated_string_of_unique_characters_leetcode
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode
+
+# fast build rule for target.
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir\build.make CMakeFiles/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir/build
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named Sqrt_of_number_using_binary_search
+
+# Build rule for target.
+Sqrt_of_number_using_binary_search: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Sqrt_of_number_using_binary_search
+.PHONY : Sqrt_of_number_using_binary_search
+
+# fast build rule for target.
+Sqrt_of_number_using_binary_search/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sqrt_of_number_using_binary_search.dir\build.make CMakeFiles/Sqrt_of_number_using_binary_search.dir/build
+.PHONY : Sqrt_of_number_using_binary_search/fast
+
+#=============================================================================
+# Target rules for targets named Ways_to_make_an_array_fair
+
+# Build rule for target.
+Ways_to_make_an_array_fair: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ways_to_make_an_array_fair
+.PHONY : Ways_to_make_an_array_fair
+
+# fast build rule for target.
+Ways_to_make_an_array_fair/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ways_to_make_an_array_fair.dir\build.make CMakeFiles/Ways_to_make_an_array_fair.dir/build
+.PHONY : Ways_to_make_an_array_fair/fast
+
+#=============================================================================
+# Target rules for targets named Minimum_deletion_cost_to_avoid_repeating_characters_leetcode
+
+# Build rule for target.
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Minimum_deletion_cost_to_avoid_repeating_characters_leetcode
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode
+
+# fast build rule for target.
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir\build.make CMakeFiles/Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir/build
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named 4Keys_keyboard_leetcode
+
+# Build rule for target.
+4Keys_keyboard_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4Keys_keyboard_leetcode
+.PHONY : 4Keys_keyboard_leetcode
+
+# fast build rule for target.
+4Keys_keyboard_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4Keys_keyboard_leetcode.dir\build.make CMakeFiles/4Keys_keyboard_leetcode.dir/build
+.PHONY : 4Keys_keyboard_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named Greatest_sum_divisible_by_3_leetcode
+
+# Build rule for target.
+Greatest_sum_divisible_by_3_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Greatest_sum_divisible_by_3_leetcode
+.PHONY : Greatest_sum_divisible_by_3_leetcode
+
+# fast build rule for target.
+Greatest_sum_divisible_by_3_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Greatest_sum_divisible_by_3_leetcode.dir\build.make CMakeFiles/Greatest_sum_divisible_by_3_leetcode.dir/build
+.PHONY : Greatest_sum_divisible_by_3_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named oops_2nd_program
+
+# Build rule for target.
+oops_2nd_program: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 oops_2nd_program
+.PHONY : oops_2nd_program
+
+# fast build rule for target.
+oops_2nd_program/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oops_2nd_program.dir\build.make CMakeFiles/oops_2nd_program.dir/build
+.PHONY : oops_2nd_program/fast
+
+#=============================================================================
+# Target rules for targets named Number_of_provinces_leetcode
+
+# Build rule for target.
+Number_of_provinces_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Number_of_provinces_leetcode
+.PHONY : Number_of_provinces_leetcode
+
+# fast build rule for target.
+Number_of_provinces_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Number_of_provinces_leetcode.dir\build.make CMakeFiles/Number_of_provinces_leetcode.dir/build
+.PHONY : Number_of_provinces_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named Bitwise_and_of_number_range_leetcode
+
+# Build rule for target.
+Bitwise_and_of_number_range_leetcode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Bitwise_and_of_number_range_leetcode
+.PHONY : Bitwise_and_of_number_range_leetcode
+
+# fast build rule for target.
+Bitwise_and_of_number_range_leetcode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bitwise_and_of_number_range_leetcode.dir\build.make CMakeFiles/Bitwise_and_of_number_range_leetcode.dir/build
+.PHONY : Bitwise_and_of_number_range_leetcode/fast
 
 2.obj: 2.cpp.obj
 
@@ -2200,6 +2408,33 @@ Find_Count_of_single_valued_subtrees_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_sum_closest_leetcode.dir\build.make CMakeFiles/3_sum_closest_leetcode.dir/3_sum_closest_leetcode.cpp.s
 .PHONY : 3_sum_closest_leetcode.cpp.s
 
+4Keys_keyboard_leetcode.obj: 4Keys_keyboard_leetcode.cpp.obj
+
+.PHONY : 4Keys_keyboard_leetcode.obj
+
+# target to build an object file
+4Keys_keyboard_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4Keys_keyboard_leetcode.dir\build.make CMakeFiles/4Keys_keyboard_leetcode.dir/4Keys_keyboard_leetcode.cpp.obj
+.PHONY : 4Keys_keyboard_leetcode.cpp.obj
+
+4Keys_keyboard_leetcode.i: 4Keys_keyboard_leetcode.cpp.i
+
+.PHONY : 4Keys_keyboard_leetcode.i
+
+# target to preprocess a source file
+4Keys_keyboard_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4Keys_keyboard_leetcode.dir\build.make CMakeFiles/4Keys_keyboard_leetcode.dir/4Keys_keyboard_leetcode.cpp.i
+.PHONY : 4Keys_keyboard_leetcode.cpp.i
+
+4Keys_keyboard_leetcode.s: 4Keys_keyboard_leetcode.cpp.s
+
+.PHONY : 4Keys_keyboard_leetcode.s
+
+# target to generate assembly for a file
+4Keys_keyboard_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4Keys_keyboard_leetcode.dir\build.make CMakeFiles/4Keys_keyboard_leetcode.dir/4Keys_keyboard_leetcode.cpp.s
+.PHONY : 4Keys_keyboard_leetcode.cpp.s
+
 Baisc_Calculator_II_leetcode.obj: Baisc_Calculator_II_leetcode.cpp.obj
 
 .PHONY : Baisc_Calculator_II_leetcode.obj
@@ -2307,6 +2542,33 @@ Best_time_to_buy_and_sell_stock_leetcode.s: Best_time_to_buy_and_sell_stock_leet
 Best_time_to_buy_and_sell_stock_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Best_time_to_buy_and_sell_stock_leetcode.dir\build.make CMakeFiles/Best_time_to_buy_and_sell_stock_leetcode.dir/Best_time_to_buy_and_sell_stock_leetcode.cpp.s
 .PHONY : Best_time_to_buy_and_sell_stock_leetcode.cpp.s
+
+Bitwise_and_of_number_range_leetcode.obj: Bitwise_and_of_number_range_leetcode.cpp.obj
+
+.PHONY : Bitwise_and_of_number_range_leetcode.obj
+
+# target to build an object file
+Bitwise_and_of_number_range_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bitwise_and_of_number_range_leetcode.dir\build.make CMakeFiles/Bitwise_and_of_number_range_leetcode.dir/Bitwise_and_of_number_range_leetcode.cpp.obj
+.PHONY : Bitwise_and_of_number_range_leetcode.cpp.obj
+
+Bitwise_and_of_number_range_leetcode.i: Bitwise_and_of_number_range_leetcode.cpp.i
+
+.PHONY : Bitwise_and_of_number_range_leetcode.i
+
+# target to preprocess a source file
+Bitwise_and_of_number_range_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bitwise_and_of_number_range_leetcode.dir\build.make CMakeFiles/Bitwise_and_of_number_range_leetcode.dir/Bitwise_and_of_number_range_leetcode.cpp.i
+.PHONY : Bitwise_and_of_number_range_leetcode.cpp.i
+
+Bitwise_and_of_number_range_leetcode.s: Bitwise_and_of_number_range_leetcode.cpp.s
+
+.PHONY : Bitwise_and_of_number_range_leetcode.s
+
+# target to generate assembly for a file
+Bitwise_and_of_number_range_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bitwise_and_of_number_range_leetcode.dir\build.make CMakeFiles/Bitwise_and_of_number_range_leetcode.dir/Bitwise_and_of_number_range_leetcode.cpp.s
+.PHONY : Bitwise_and_of_number_range_leetcode.cpp.s
 
 Book_allocation_gfg.obj: Book_allocation_gfg.cpp.obj
 
@@ -2442,6 +2704,33 @@ Capacity_to_ship_packages_in_D_Days_leetcode.s: Capacity_to_ship_packages_in_D_D
 Capacity_to_ship_packages_in_D_Days_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Capacity_to_ship_packages_in_D_Days_leetcode.dir\build.make CMakeFiles/Capacity_to_ship_packages_in_D_Days_leetcode.dir/Capacity_to_ship_packages_in_D_Days_leetcode.cpp.s
 .PHONY : Capacity_to_ship_packages_in_D_Days_leetcode.cpp.s
+
+Catch_Theives_Salesforces_interview.obj: Catch_Theives_Salesforces_interview.cpp.obj
+
+.PHONY : Catch_Theives_Salesforces_interview.obj
+
+# target to build an object file
+Catch_Theives_Salesforces_interview.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Catch_Theives_Salesforces_interview.dir\build.make CMakeFiles/Catch_Theives_Salesforces_interview.dir/Catch_Theives_Salesforces_interview.cpp.obj
+.PHONY : Catch_Theives_Salesforces_interview.cpp.obj
+
+Catch_Theives_Salesforces_interview.i: Catch_Theives_Salesforces_interview.cpp.i
+
+.PHONY : Catch_Theives_Salesforces_interview.i
+
+# target to preprocess a source file
+Catch_Theives_Salesforces_interview.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Catch_Theives_Salesforces_interview.dir\build.make CMakeFiles/Catch_Theives_Salesforces_interview.dir/Catch_Theives_Salesforces_interview.cpp.i
+.PHONY : Catch_Theives_Salesforces_interview.cpp.i
+
+Catch_Theives_Salesforces_interview.s: Catch_Theives_Salesforces_interview.cpp.s
+
+.PHONY : Catch_Theives_Salesforces_interview.s
+
+# target to generate assembly for a file
+Catch_Theives_Salesforces_interview.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Catch_Theives_Salesforces_interview.dir\build.make CMakeFiles/Catch_Theives_Salesforces_interview.dir/Catch_Theives_Salesforces_interview.cpp.s
+.PHONY : Catch_Theives_Salesforces_interview.cpp.s
 
 Coin_game_winner_where_every_player_has_three_choices_gfg_.obj: Coin_game_winner_where_every_player_has_three_choices_gfg_.cpp.obj
 
@@ -2929,6 +3218,33 @@ Get_the_maximum_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Get_the_maximum_leetcode.dir\build.make CMakeFiles/Get_the_maximum_leetcode.dir/Get_the_maximum_leetcode.cpp.s
 .PHONY : Get_the_maximum_leetcode.cpp.s
 
+Greatest_sum_divisible_by_3_leetcode.obj: Greatest_sum_divisible_by_3_leetcode.cpp.obj
+
+.PHONY : Greatest_sum_divisible_by_3_leetcode.obj
+
+# target to build an object file
+Greatest_sum_divisible_by_3_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Greatest_sum_divisible_by_3_leetcode.dir\build.make CMakeFiles/Greatest_sum_divisible_by_3_leetcode.dir/Greatest_sum_divisible_by_3_leetcode.cpp.obj
+.PHONY : Greatest_sum_divisible_by_3_leetcode.cpp.obj
+
+Greatest_sum_divisible_by_3_leetcode.i: Greatest_sum_divisible_by_3_leetcode.cpp.i
+
+.PHONY : Greatest_sum_divisible_by_3_leetcode.i
+
+# target to preprocess a source file
+Greatest_sum_divisible_by_3_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Greatest_sum_divisible_by_3_leetcode.dir\build.make CMakeFiles/Greatest_sum_divisible_by_3_leetcode.dir/Greatest_sum_divisible_by_3_leetcode.cpp.i
+.PHONY : Greatest_sum_divisible_by_3_leetcode.cpp.i
+
+Greatest_sum_divisible_by_3_leetcode.s: Greatest_sum_divisible_by_3_leetcode.cpp.s
+
+.PHONY : Greatest_sum_divisible_by_3_leetcode.s
+
+# target to generate assembly for a file
+Greatest_sum_divisible_by_3_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Greatest_sum_divisible_by_3_leetcode.dir\build.make CMakeFiles/Greatest_sum_divisible_by_3_leetcode.dir/Greatest_sum_divisible_by_3_leetcode.cpp.s
+.PHONY : Greatest_sum_divisible_by_3_leetcode.cpp.s
+
 Increasing_triplet_subsequence_leetcode_.obj: Increasing_triplet_subsequence_leetcode_.cpp.obj
 
 .PHONY : Increasing_triplet_subsequence_leetcode_.obj
@@ -3009,6 +3325,33 @@ Jump_Game_II_leetcode.s: Jump_Game_II_leetcode.cpp.s
 Jump_Game_II_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jump_Game_II_leetcode.dir\build.make CMakeFiles/Jump_Game_II_leetcode.dir/Jump_Game_II_leetcode.cpp.s
 .PHONY : Jump_Game_II_leetcode.cpp.s
+
+Largest_Divisible_subset_leetcode.obj: Largest_Divisible_subset_leetcode.cpp.obj
+
+.PHONY : Largest_Divisible_subset_leetcode.obj
+
+# target to build an object file
+Largest_Divisible_subset_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Largest_Divisible_subset_leetcode.dir\build.make CMakeFiles/Largest_Divisible_subset_leetcode.dir/Largest_Divisible_subset_leetcode.cpp.obj
+.PHONY : Largest_Divisible_subset_leetcode.cpp.obj
+
+Largest_Divisible_subset_leetcode.i: Largest_Divisible_subset_leetcode.cpp.i
+
+.PHONY : Largest_Divisible_subset_leetcode.i
+
+# target to preprocess a source file
+Largest_Divisible_subset_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Largest_Divisible_subset_leetcode.dir\build.make CMakeFiles/Largest_Divisible_subset_leetcode.dir/Largest_Divisible_subset_leetcode.cpp.i
+.PHONY : Largest_Divisible_subset_leetcode.cpp.i
+
+Largest_Divisible_subset_leetcode.s: Largest_Divisible_subset_leetcode.cpp.s
+
+.PHONY : Largest_Divisible_subset_leetcode.s
+
+# target to generate assembly for a file
+Largest_Divisible_subset_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Largest_Divisible_subset_leetcode.dir\build.make CMakeFiles/Largest_Divisible_subset_leetcode.dir/Largest_Divisible_subset_leetcode.cpp.s
+.PHONY : Largest_Divisible_subset_leetcode.cpp.s
 
 Longest_Repeating_subsequence_gfg.obj: Longest_Repeating_subsequence_gfg.cpp.obj
 
@@ -3199,6 +3542,33 @@ Longest_substring_with_atleast_k_repeating_characters_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Longest_substring_with_atleast_k_repeating_characters_leetcode.dir\build.make CMakeFiles/Longest_substring_with_atleast_k_repeating_characters_leetcode.dir/Longest_substring_with_atleast_k_repeating_characters_leetcode.cpp.s
 .PHONY : Longest_substring_with_atleast_k_repeating_characters_leetcode.cpp.s
 
+Max_consecutive_ones_III.obj: Max_consecutive_ones_III.cpp.obj
+
+.PHONY : Max_consecutive_ones_III.obj
+
+# target to build an object file
+Max_consecutive_ones_III.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_consecutive_ones_III.dir\build.make CMakeFiles/Max_consecutive_ones_III.dir/Max_consecutive_ones_III.cpp.obj
+.PHONY : Max_consecutive_ones_III.cpp.obj
+
+Max_consecutive_ones_III.i: Max_consecutive_ones_III.cpp.i
+
+.PHONY : Max_consecutive_ones_III.i
+
+# target to preprocess a source file
+Max_consecutive_ones_III.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_consecutive_ones_III.dir\build.make CMakeFiles/Max_consecutive_ones_III.dir/Max_consecutive_ones_III.cpp.i
+.PHONY : Max_consecutive_ones_III.cpp.i
+
+Max_consecutive_ones_III.s: Max_consecutive_ones_III.cpp.s
+
+.PHONY : Max_consecutive_ones_III.s
+
+# target to generate assembly for a file
+Max_consecutive_ones_III.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_consecutive_ones_III.dir\build.make CMakeFiles/Max_consecutive_ones_III.dir/Max_consecutive_ones_III.cpp.s
+.PHONY : Max_consecutive_ones_III.cpp.s
+
 Maximal_Rectangle_leetcode.obj: Maximal_Rectangle_leetcode.cpp.obj
 
 .PHONY : Maximal_Rectangle_leetcode.obj
@@ -3253,6 +3623,33 @@ Maximal_Square_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximal_Square_leetcode.dir\build.make CMakeFiles/Maximal_Square_leetcode.dir/Maximal_Square_leetcode.cpp.s
 .PHONY : Maximal_Square_leetcode.cpp.s
 
+Maximize_score_after_n_operations.obj: Maximize_score_after_n_operations.cpp.obj
+
+.PHONY : Maximize_score_after_n_operations.obj
+
+# target to build an object file
+Maximize_score_after_n_operations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximize_score_after_n_operations.dir\build.make CMakeFiles/Maximize_score_after_n_operations.dir/Maximize_score_after_n_operations.cpp.obj
+.PHONY : Maximize_score_after_n_operations.cpp.obj
+
+Maximize_score_after_n_operations.i: Maximize_score_after_n_operations.cpp.i
+
+.PHONY : Maximize_score_after_n_operations.i
+
+# target to preprocess a source file
+Maximize_score_after_n_operations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximize_score_after_n_operations.dir\build.make CMakeFiles/Maximize_score_after_n_operations.dir/Maximize_score_after_n_operations.cpp.i
+.PHONY : Maximize_score_after_n_operations.cpp.i
+
+Maximize_score_after_n_operations.s: Maximize_score_after_n_operations.cpp.s
+
+.PHONY : Maximize_score_after_n_operations.s
+
+# target to generate assembly for a file
+Maximize_score_after_n_operations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximize_score_after_n_operations.dir\build.make CMakeFiles/Maximize_score_after_n_operations.dir/Maximize_score_after_n_operations.cpp.s
+.PHONY : Maximize_score_after_n_operations.cpp.s
+
 Maximum_area_Histogram_leetcode.obj: Maximum_area_Histogram_leetcode.cpp.obj
 
 .PHONY : Maximum_area_Histogram_leetcode.obj
@@ -3279,6 +3676,33 @@ Maximum_area_Histogram_leetcode.s: Maximum_area_Histogram_leetcode.cpp.s
 Maximum_area_Histogram_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximum_area_Histogram_leetcode.dir\build.make CMakeFiles/Maximum_area_Histogram_leetcode.dir/Maximum_area_Histogram_leetcode.cpp.s
 .PHONY : Maximum_area_Histogram_leetcode.cpp.s
+
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode.obj: Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.obj
+
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode.obj
+
+# target to build an object file
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir\build.make CMakeFiles/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.obj
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.obj
+
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode.i: Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.i
+
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode.i
+
+# target to preprocess a source file
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir\build.make CMakeFiles/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.i
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.i
+
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode.s: Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.s
+
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode.s
+
+# target to generate assembly for a file
+Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir\build.make CMakeFiles/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.s
+.PHONY : Maximum_length_of_concatenated_string_of_unique_characters_leetcode.cpp.s
 
 Maximum_length_of_repeated_subarray_leetcode.obj: Maximum_length_of_repeated_subarray_leetcode.cpp.obj
 
@@ -3496,6 +3920,33 @@ Minimum_cost_tickets_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_cost_tickets_leetcode.dir\build.make CMakeFiles/Minimum_cost_tickets_leetcode.dir/Minimum_cost_tickets_leetcode.cpp.s
 .PHONY : Minimum_cost_tickets_leetcode.cpp.s
 
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.obj: Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.obj
+
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.obj
+
+# target to build an object file
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir\build.make CMakeFiles/Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir/Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.obj
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.obj
+
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.i: Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.i
+
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.i
+
+# target to preprocess a source file
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir\build.make CMakeFiles/Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir/Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.i
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.i
+
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.s: Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.s
+
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.s
+
+# target to generate assembly for a file
+Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir\build.make CMakeFiles/Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.dir/Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.s
+.PHONY : Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.cpp.s
+
 Minimum_falling_path_sum_leetcode.obj: Minimum_falling_path_sum_leetcode.cpp.obj
 
 .PHONY : Minimum_falling_path_sum_leetcode.obj
@@ -3522,6 +3973,33 @@ Minimum_falling_path_sum_leetcode.s: Minimum_falling_path_sum_leetcode.cpp.s
 Minimum_falling_path_sum_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_falling_path_sum_leetcode.dir\build.make CMakeFiles/Minimum_falling_path_sum_leetcode.dir/Minimum_falling_path_sum_leetcode.cpp.s
 .PHONY : Minimum_falling_path_sum_leetcode.cpp.s
+
+Minimum_height_trees_leetcode.obj: Minimum_height_trees_leetcode.cpp.obj
+
+.PHONY : Minimum_height_trees_leetcode.obj
+
+# target to build an object file
+Minimum_height_trees_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_height_trees_leetcode.dir\build.make CMakeFiles/Minimum_height_trees_leetcode.dir/Minimum_height_trees_leetcode.cpp.obj
+.PHONY : Minimum_height_trees_leetcode.cpp.obj
+
+Minimum_height_trees_leetcode.i: Minimum_height_trees_leetcode.cpp.i
+
+.PHONY : Minimum_height_trees_leetcode.i
+
+# target to preprocess a source file
+Minimum_height_trees_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_height_trees_leetcode.dir\build.make CMakeFiles/Minimum_height_trees_leetcode.dir/Minimum_height_trees_leetcode.cpp.i
+.PHONY : Minimum_height_trees_leetcode.cpp.i
+
+Minimum_height_trees_leetcode.s: Minimum_height_trees_leetcode.cpp.s
+
+.PHONY : Minimum_height_trees_leetcode.s
+
+# target to generate assembly for a file
+Minimum_height_trees_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Minimum_height_trees_leetcode.dir\build.make CMakeFiles/Minimum_height_trees_leetcode.dir/Minimum_height_trees_leetcode.cpp.s
+.PHONY : Minimum_height_trees_leetcode.cpp.s
 
 Minimum_number_of_modifications_to_reach_destinaition_gfg.obj: Minimum_number_of_modifications_to_reach_destinaition_gfg.cpp.obj
 
@@ -3738,6 +4216,87 @@ Number_of_Islands_leetcode.s: Number_of_Islands_leetcode.cpp.s
 Number_of_Islands_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Number_of_Islands_leetcode.dir\build.make CMakeFiles/Number_of_Islands_leetcode.dir/Number_of_Islands_leetcode.cpp.s
 .PHONY : Number_of_Islands_leetcode.cpp.s
+
+Number_of_provinces_leetcode.obj: Number_of_provinces_leetcode.cpp.obj
+
+.PHONY : Number_of_provinces_leetcode.obj
+
+# target to build an object file
+Number_of_provinces_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Number_of_provinces_leetcode.dir\build.make CMakeFiles/Number_of_provinces_leetcode.dir/Number_of_provinces_leetcode.cpp.obj
+.PHONY : Number_of_provinces_leetcode.cpp.obj
+
+Number_of_provinces_leetcode.i: Number_of_provinces_leetcode.cpp.i
+
+.PHONY : Number_of_provinces_leetcode.i
+
+# target to preprocess a source file
+Number_of_provinces_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Number_of_provinces_leetcode.dir\build.make CMakeFiles/Number_of_provinces_leetcode.dir/Number_of_provinces_leetcode.cpp.i
+.PHONY : Number_of_provinces_leetcode.cpp.i
+
+Number_of_provinces_leetcode.s: Number_of_provinces_leetcode.cpp.s
+
+.PHONY : Number_of_provinces_leetcode.s
+
+# target to generate assembly for a file
+Number_of_provinces_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Number_of_provinces_leetcode.dir\build.make CMakeFiles/Number_of_provinces_leetcode.dir/Number_of_provinces_leetcode.cpp.s
+.PHONY : Number_of_provinces_leetcode.cpp.s
+
+OOPS/Max_Area_of_Island_leetcode.obj: OOPS/Max_Area_of_Island_leetcode.cpp.obj
+
+.PHONY : OOPS/Max_Area_of_Island_leetcode.obj
+
+# target to build an object file
+OOPS/Max_Area_of_Island_leetcode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_Area_of_Island_leetcode.dir\build.make CMakeFiles/Max_Area_of_Island_leetcode.dir/OOPS/Max_Area_of_Island_leetcode.cpp.obj
+.PHONY : OOPS/Max_Area_of_Island_leetcode.cpp.obj
+
+OOPS/Max_Area_of_Island_leetcode.i: OOPS/Max_Area_of_Island_leetcode.cpp.i
+
+.PHONY : OOPS/Max_Area_of_Island_leetcode.i
+
+# target to preprocess a source file
+OOPS/Max_Area_of_Island_leetcode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_Area_of_Island_leetcode.dir\build.make CMakeFiles/Max_Area_of_Island_leetcode.dir/OOPS/Max_Area_of_Island_leetcode.cpp.i
+.PHONY : OOPS/Max_Area_of_Island_leetcode.cpp.i
+
+OOPS/Max_Area_of_Island_leetcode.s: OOPS/Max_Area_of_Island_leetcode.cpp.s
+
+.PHONY : OOPS/Max_Area_of_Island_leetcode.s
+
+# target to generate assembly for a file
+OOPS/Max_Area_of_Island_leetcode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Max_Area_of_Island_leetcode.dir\build.make CMakeFiles/Max_Area_of_Island_leetcode.dir/OOPS/Max_Area_of_Island_leetcode.cpp.s
+.PHONY : OOPS/Max_Area_of_Island_leetcode.cpp.s
+
+OOPS/oops_2nd_program.obj: OOPS/oops_2nd_program.cpp.obj
+
+.PHONY : OOPS/oops_2nd_program.obj
+
+# target to build an object file
+OOPS/oops_2nd_program.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oops_2nd_program.dir\build.make CMakeFiles/oops_2nd_program.dir/OOPS/oops_2nd_program.cpp.obj
+.PHONY : OOPS/oops_2nd_program.cpp.obj
+
+OOPS/oops_2nd_program.i: OOPS/oops_2nd_program.cpp.i
+
+.PHONY : OOPS/oops_2nd_program.i
+
+# target to preprocess a source file
+OOPS/oops_2nd_program.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oops_2nd_program.dir\build.make CMakeFiles/oops_2nd_program.dir/OOPS/oops_2nd_program.cpp.i
+.PHONY : OOPS/oops_2nd_program.cpp.i
+
+OOPS/oops_2nd_program.s: OOPS/oops_2nd_program.cpp.s
+
+.PHONY : OOPS/oops_2nd_program.s
+
+# target to generate assembly for a file
+OOPS/oops_2nd_program.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oops_2nd_program.dir\build.make CMakeFiles/oops_2nd_program.dir/OOPS/oops_2nd_program.cpp.s
+.PHONY : OOPS/oops_2nd_program.cpp.s
 
 OOPS/oops_first_program_C++.obj: OOPS/oops_first_program_C++.cpp.obj
 
@@ -4009,6 +4568,33 @@ Spiral_Matrix_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Spiral_Matrix_leetcode.dir\build.make CMakeFiles/Spiral_Matrix_leetcode.dir/Spiral_Matrix_leetcode.cpp.s
 .PHONY : Spiral_Matrix_leetcode.cpp.s
 
+Sqrt_of_number_using_binary_search.obj: Sqrt_of_number_using_binary_search.cpp.obj
+
+.PHONY : Sqrt_of_number_using_binary_search.obj
+
+# target to build an object file
+Sqrt_of_number_using_binary_search.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sqrt_of_number_using_binary_search.dir\build.make CMakeFiles/Sqrt_of_number_using_binary_search.dir/Sqrt_of_number_using_binary_search.cpp.obj
+.PHONY : Sqrt_of_number_using_binary_search.cpp.obj
+
+Sqrt_of_number_using_binary_search.i: Sqrt_of_number_using_binary_search.cpp.i
+
+.PHONY : Sqrt_of_number_using_binary_search.i
+
+# target to preprocess a source file
+Sqrt_of_number_using_binary_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sqrt_of_number_using_binary_search.dir\build.make CMakeFiles/Sqrt_of_number_using_binary_search.dir/Sqrt_of_number_using_binary_search.cpp.i
+.PHONY : Sqrt_of_number_using_binary_search.cpp.i
+
+Sqrt_of_number_using_binary_search.s: Sqrt_of_number_using_binary_search.cpp.s
+
+.PHONY : Sqrt_of_number_using_binary_search.s
+
+# target to generate assembly for a file
+Sqrt_of_number_using_binary_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sqrt_of_number_using_binary_search.dir\build.make CMakeFiles/Sqrt_of_number_using_binary_search.dir/Sqrt_of_number_using_binary_search.cpp.s
+.PHONY : Sqrt_of_number_using_binary_search.cpp.s
+
 Stone_Game_II_leetcode.obj: Stone_Game_II_leetcode.cpp.obj
 
 .PHONY : Stone_Game_II_leetcode.obj
@@ -4089,6 +4675,33 @@ Target_sum_leetcode.s: Target_sum_leetcode.cpp.s
 Target_sum_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Target_sum_leetcode.dir\build.make CMakeFiles/Target_sum_leetcode.dir/Target_sum_leetcode.cpp.s
 .PHONY : Target_sum_leetcode.cpp.s
+
+Time_needed_to_inform_all_employees_leetcode_graph.obj: Time_needed_to_inform_all_employees_leetcode_graph.cpp.obj
+
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph.obj
+
+# target to build an object file
+Time_needed_to_inform_all_employees_leetcode_graph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Time_needed_to_inform_all_employees_leetcode_graph.dir\build.make CMakeFiles/Time_needed_to_inform_all_employees_leetcode_graph.dir/Time_needed_to_inform_all_employees_leetcode_graph.cpp.obj
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph.cpp.obj
+
+Time_needed_to_inform_all_employees_leetcode_graph.i: Time_needed_to_inform_all_employees_leetcode_graph.cpp.i
+
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph.i
+
+# target to preprocess a source file
+Time_needed_to_inform_all_employees_leetcode_graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Time_needed_to_inform_all_employees_leetcode_graph.dir\build.make CMakeFiles/Time_needed_to_inform_all_employees_leetcode_graph.dir/Time_needed_to_inform_all_employees_leetcode_graph.cpp.i
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph.cpp.i
+
+Time_needed_to_inform_all_employees_leetcode_graph.s: Time_needed_to_inform_all_employees_leetcode_graph.cpp.s
+
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph.s
+
+# target to generate assembly for a file
+Time_needed_to_inform_all_employees_leetcode_graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Time_needed_to_inform_all_employees_leetcode_graph.dir\build.make CMakeFiles/Time_needed_to_inform_all_employees_leetcode_graph.dir/Time_needed_to_inform_all_employees_leetcode_graph.cpp.s
+.PHONY : Time_needed_to_inform_all_employees_leetcode_graph.cpp.s
 
 Top_k_frequent_words_leetcode.obj: Top_k_frequent_words_leetcode.cpp.obj
 
@@ -4197,6 +4810,33 @@ Unique_binary_search_Trees_II_leetcode.s: Unique_binary_search_Trees_II_leetcode
 Unique_binary_search_Trees_II_leetcode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unique_binary_search_Trees_II_leetcode.dir\build.make CMakeFiles/Unique_binary_search_Trees_II_leetcode.dir/Unique_binary_search_Trees_II_leetcode.cpp.s
 .PHONY : Unique_binary_search_Trees_II_leetcode.cpp.s
+
+Ways_to_make_an_array_fair.obj: Ways_to_make_an_array_fair.cpp.obj
+
+.PHONY : Ways_to_make_an_array_fair.obj
+
+# target to build an object file
+Ways_to_make_an_array_fair.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ways_to_make_an_array_fair.dir\build.make CMakeFiles/Ways_to_make_an_array_fair.dir/Ways_to_make_an_array_fair.cpp.obj
+.PHONY : Ways_to_make_an_array_fair.cpp.obj
+
+Ways_to_make_an_array_fair.i: Ways_to_make_an_array_fair.cpp.i
+
+.PHONY : Ways_to_make_an_array_fair.i
+
+# target to preprocess a source file
+Ways_to_make_an_array_fair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ways_to_make_an_array_fair.dir\build.make CMakeFiles/Ways_to_make_an_array_fair.dir/Ways_to_make_an_array_fair.cpp.i
+.PHONY : Ways_to_make_an_array_fair.cpp.i
+
+Ways_to_make_an_array_fair.s: Ways_to_make_an_array_fair.cpp.s
+
+.PHONY : Ways_to_make_an_array_fair.s
+
+# target to generate assembly for a file
+Ways_to_make_an_array_fair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ways_to_make_an_array_fair.dir\build.make CMakeFiles/Ways_to_make_an_array_fair.dir/Ways_to_make_an_array_fair.cpp.s
+.PHONY : Ways_to_make_an_array_fair.cpp.s
 
 Wild_card_matching_leetcode.obj: Wild_card_matching_leetcode.cpp.obj
 
@@ -6077,15 +6717,18 @@ help:
 	@echo ... 3
 	@echo ... 3_Sum_leetcoode
 	@echo ... 3_sum_closest_leetcode
+	@echo ... 4Keys_keyboard_leetcode
 	@echo ... Baisc_Calculator_II_leetcode
 	@echo ... Best_time_to_buy_and_sell_stock_3_leetcode
 	@echo ... Best_time_to_buy_and_sell_stock_III_leetcode
 	@echo ... Best_time_to_buy_and_sell_stock_leetcode
+	@echo ... Bitwise_and_of_number_range_leetcode
 	@echo ... Book_allocation_gfg
 	@echo ... Building_roads_cses
 	@echo ... Building_teams
 	@echo ... Burst_Ballon_leetcode
 	@echo ... Capacity_to_ship_packages_in_D_Days_leetcode
+	@echo ... Catch_Theives_Salesforces_interview
 	@echo ... Coin_game_winner_where_every_player_has_three_choices_gfg
 	@echo ... Construct_binary_Tree_from_inorder_and_preorder_traversal
 	@echo ... Count_and_say_leetcode
@@ -6104,9 +6747,11 @@ help:
 	@echo ... Fraction_to_recurring_Decimal_leetcode
 	@echo ... Gas_statIon_leetcode
 	@echo ... Get_the_maximum_leetcode
+	@echo ... Greatest_sum_divisible_by_3_leetcode
 	@echo ... Increasing_triplet_subsequence_leetcode_
 	@echo ... Island_and_water_problem_gpart2
 	@echo ... Jump_Game_II_leetcode
+	@echo ... Largest_Divisible_subset_leetcode
 	@echo ... Longest_Repeating_subsequence_gfg
 	@echo ... Longest_Valid_Parenthesis_gfg
 	@echo ... Longest_consecutive_sequence_leetcode
@@ -6114,9 +6759,13 @@ help:
 	@echo ... Longest_mountain_in_an_array_leetcode
 	@echo ... Longest_reapeating_and_non_overlapping_substring_gfg
 	@echo ... Longest_substring_with_atleast_k_repeating_characters_leetcode
+	@echo ... Max_Area_of_Island_leetcode
+	@echo ... Max_consecutive_ones_III
 	@echo ... Maximal_Rectangle_leetcode
 	@echo ... Maximal_Square_leetcode
+	@echo ... Maximize_score_after_n_operations
 	@echo ... Maximum_area_Histogram_leetcode
+	@echo ... Maximum_length_of_concatenated_string_of_unique_characters_leetcode
 	@echo ... Maximum_length_of_repeated_subarray_leetcode
 	@echo ... Maximum_non_overlapping_bridges_pepcoding
 	@echo ... Maximum_product_subarray
@@ -6125,7 +6774,9 @@ help:
 	@echo ... Message_route_cses
 	@echo ... Minimum_Window_substring_leetcode
 	@echo ... Minimum_cost_tickets_leetcode
+	@echo ... Minimum_deletion_cost_to_avoid_repeating_characters_leetcode
 	@echo ... Minimum_falling_path_sum_leetcode
+	@echo ... Minimum_height_trees_leetcode
 	@echo ... Minimum_number_of_modifications_to_reach_destinaition_gfg
 	@echo ... Minimum_time_taken_by_each_job_to_be_completed_in_DAG_gfg
 	@echo ... Mininum_Size_Subarray_sum_leetcode
@@ -6134,6 +6785,7 @@ help:
 	@echo ... Next_smaller_to_left_right
 	@echo ... No_of_good_ways_to_split_a_string
 	@echo ... Number_of_Islands_leetcode
+	@echo ... Number_of_provinces_leetcode
 	@echo ... Palindrome_partitioning_leetcode
 	@echo ... Path_in_Zig_Zag_Labelled_Tree_leetcode
 	@echo ... Path_with_Maximum_Gold_leetcode
@@ -6143,13 +6795,16 @@ help:
 	@echo ... Search_in_rotated_sorted_array_leetcode
 	@echo ... Shopping_offers_leetcode
 	@echo ... Spiral_Matrix_leetcode
+	@echo ... Sqrt_of_number_using_binary_search
 	@echo ... Stone_Game_II_leetcode
 	@echo ... Surrounded_Regions_leetcode
 	@echo ... Target_sum_leetcode
+	@echo ... Time_needed_to_inform_all_employees_leetcode_graph
 	@echo ... Top_k_frequent_words_leetcode
 	@echo ... Two_cost_Scheduling_leetcode
 	@echo ... Unique_Binary_Search_Trees_leetcode
 	@echo ... Unique_binary_search_Trees_II_leetcode
+	@echo ... Ways_to_make_an_array_fair
 	@echo ... Wild_card_matching_leetcode
 	@echo ... Word_Break_II_leetcode
 	@echo ... Word_ladder_bfs_leetcode
@@ -6200,6 +6855,7 @@ help:
 	@echo ... minimum_time_to_rot_all_oranges_amazon
 	@echo ... missing_and_repeating_gfg
 	@echo ... onkar
+	@echo ... oops_2nd_program
 	@echo ... oops_first_program_C++
 	@echo ... paint_house_gfg
 	@echo ... print_all_the_longest_increasing_subsequences
@@ -6236,6 +6892,9 @@ help:
 	@echo ... 3_sum_closest_leetcode.obj
 	@echo ... 3_sum_closest_leetcode.i
 	@echo ... 3_sum_closest_leetcode.s
+	@echo ... 4Keys_keyboard_leetcode.obj
+	@echo ... 4Keys_keyboard_leetcode.i
+	@echo ... 4Keys_keyboard_leetcode.s
 	@echo ... Baisc_Calculator_II_leetcode.obj
 	@echo ... Baisc_Calculator_II_leetcode.i
 	@echo ... Baisc_Calculator_II_leetcode.s
@@ -6248,6 +6907,9 @@ help:
 	@echo ... Best_time_to_buy_and_sell_stock_leetcode.obj
 	@echo ... Best_time_to_buy_and_sell_stock_leetcode.i
 	@echo ... Best_time_to_buy_and_sell_stock_leetcode.s
+	@echo ... Bitwise_and_of_number_range_leetcode.obj
+	@echo ... Bitwise_and_of_number_range_leetcode.i
+	@echo ... Bitwise_and_of_number_range_leetcode.s
 	@echo ... Book_allocation_gfg.obj
 	@echo ... Book_allocation_gfg.i
 	@echo ... Book_allocation_gfg.s
@@ -6263,6 +6925,9 @@ help:
 	@echo ... Capacity_to_ship_packages_in_D_Days_leetcode.obj
 	@echo ... Capacity_to_ship_packages_in_D_Days_leetcode.i
 	@echo ... Capacity_to_ship_packages_in_D_Days_leetcode.s
+	@echo ... Catch_Theives_Salesforces_interview.obj
+	@echo ... Catch_Theives_Salesforces_interview.i
+	@echo ... Catch_Theives_Salesforces_interview.s
 	@echo ... Coin_game_winner_where_every_player_has_three_choices_gfg_.obj
 	@echo ... Coin_game_winner_where_every_player_has_three_choices_gfg_.i
 	@echo ... Coin_game_winner_where_every_player_has_three_choices_gfg_.s
@@ -6317,6 +6982,9 @@ help:
 	@echo ... Get_the_maximum_leetcode.obj
 	@echo ... Get_the_maximum_leetcode.i
 	@echo ... Get_the_maximum_leetcode.s
+	@echo ... Greatest_sum_divisible_by_3_leetcode.obj
+	@echo ... Greatest_sum_divisible_by_3_leetcode.i
+	@echo ... Greatest_sum_divisible_by_3_leetcode.s
 	@echo ... Increasing_triplet_subsequence_leetcode_.obj
 	@echo ... Increasing_triplet_subsequence_leetcode_.i
 	@echo ... Increasing_triplet_subsequence_leetcode_.s
@@ -6326,6 +6994,9 @@ help:
 	@echo ... Jump_Game_II_leetcode.obj
 	@echo ... Jump_Game_II_leetcode.i
 	@echo ... Jump_Game_II_leetcode.s
+	@echo ... Largest_Divisible_subset_leetcode.obj
+	@echo ... Largest_Divisible_subset_leetcode.i
+	@echo ... Largest_Divisible_subset_leetcode.s
 	@echo ... Longest_Repeating_subsequence_gfg.obj
 	@echo ... Longest_Repeating_subsequence_gfg.i
 	@echo ... Longest_Repeating_subsequence_gfg.s
@@ -6347,15 +7018,24 @@ help:
 	@echo ... Longest_substring_with_atleast_k_repeating_characters_leetcode.obj
 	@echo ... Longest_substring_with_atleast_k_repeating_characters_leetcode.i
 	@echo ... Longest_substring_with_atleast_k_repeating_characters_leetcode.s
+	@echo ... Max_consecutive_ones_III.obj
+	@echo ... Max_consecutive_ones_III.i
+	@echo ... Max_consecutive_ones_III.s
 	@echo ... Maximal_Rectangle_leetcode.obj
 	@echo ... Maximal_Rectangle_leetcode.i
 	@echo ... Maximal_Rectangle_leetcode.s
 	@echo ... Maximal_Square_leetcode.obj
 	@echo ... Maximal_Square_leetcode.i
 	@echo ... Maximal_Square_leetcode.s
+	@echo ... Maximize_score_after_n_operations.obj
+	@echo ... Maximize_score_after_n_operations.i
+	@echo ... Maximize_score_after_n_operations.s
 	@echo ... Maximum_area_Histogram_leetcode.obj
 	@echo ... Maximum_area_Histogram_leetcode.i
 	@echo ... Maximum_area_Histogram_leetcode.s
+	@echo ... Maximum_length_of_concatenated_string_of_unique_characters_leetcode.obj
+	@echo ... Maximum_length_of_concatenated_string_of_unique_characters_leetcode.i
+	@echo ... Maximum_length_of_concatenated_string_of_unique_characters_leetcode.s
 	@echo ... Maximum_length_of_repeated_subarray_leetcode.obj
 	@echo ... Maximum_length_of_repeated_subarray_leetcode.i
 	@echo ... Maximum_length_of_repeated_subarray_leetcode.s
@@ -6380,9 +7060,15 @@ help:
 	@echo ... Minimum_cost_tickets_leetcode.obj
 	@echo ... Minimum_cost_tickets_leetcode.i
 	@echo ... Minimum_cost_tickets_leetcode.s
+	@echo ... Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.obj
+	@echo ... Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.i
+	@echo ... Minimum_deletion_cost_to_avoid_repeating_characters_leetcode.s
 	@echo ... Minimum_falling_path_sum_leetcode.obj
 	@echo ... Minimum_falling_path_sum_leetcode.i
 	@echo ... Minimum_falling_path_sum_leetcode.s
+	@echo ... Minimum_height_trees_leetcode.obj
+	@echo ... Minimum_height_trees_leetcode.i
+	@echo ... Minimum_height_trees_leetcode.s
 	@echo ... Minimum_number_of_modifications_to_reach_destinaition_gfg.obj
 	@echo ... Minimum_number_of_modifications_to_reach_destinaition_gfg.i
 	@echo ... Minimum_number_of_modifications_to_reach_destinaition_gfg.s
@@ -6407,6 +7093,15 @@ help:
 	@echo ... Number_of_Islands_leetcode.obj
 	@echo ... Number_of_Islands_leetcode.i
 	@echo ... Number_of_Islands_leetcode.s
+	@echo ... Number_of_provinces_leetcode.obj
+	@echo ... Number_of_provinces_leetcode.i
+	@echo ... Number_of_provinces_leetcode.s
+	@echo ... OOPS/Max_Area_of_Island_leetcode.obj
+	@echo ... OOPS/Max_Area_of_Island_leetcode.i
+	@echo ... OOPS/Max_Area_of_Island_leetcode.s
+	@echo ... OOPS/oops_2nd_program.obj
+	@echo ... OOPS/oops_2nd_program.i
+	@echo ... OOPS/oops_2nd_program.s
 	@echo ... OOPS/oops_first_program_C++.obj
 	@echo ... OOPS/oops_first_program_C++.i
 	@echo ... OOPS/oops_first_program_C++.s
@@ -6437,6 +7132,9 @@ help:
 	@echo ... Spiral_Matrix_leetcode.obj
 	@echo ... Spiral_Matrix_leetcode.i
 	@echo ... Spiral_Matrix_leetcode.s
+	@echo ... Sqrt_of_number_using_binary_search.obj
+	@echo ... Sqrt_of_number_using_binary_search.i
+	@echo ... Sqrt_of_number_using_binary_search.s
 	@echo ... Stone_Game_II_leetcode.obj
 	@echo ... Stone_Game_II_leetcode.i
 	@echo ... Stone_Game_II_leetcode.s
@@ -6446,6 +7144,9 @@ help:
 	@echo ... Target_sum_leetcode.obj
 	@echo ... Target_sum_leetcode.i
 	@echo ... Target_sum_leetcode.s
+	@echo ... Time_needed_to_inform_all_employees_leetcode_graph.obj
+	@echo ... Time_needed_to_inform_all_employees_leetcode_graph.i
+	@echo ... Time_needed_to_inform_all_employees_leetcode_graph.s
 	@echo ... Top_k_frequent_words_leetcode.obj
 	@echo ... Top_k_frequent_words_leetcode.i
 	@echo ... Top_k_frequent_words_leetcode.s
@@ -6458,6 +7159,9 @@ help:
 	@echo ... Unique_binary_search_Trees_II_leetcode.obj
 	@echo ... Unique_binary_search_Trees_II_leetcode.i
 	@echo ... Unique_binary_search_Trees_II_leetcode.s
+	@echo ... Ways_to_make_an_array_fair.obj
+	@echo ... Ways_to_make_an_array_fair.i
+	@echo ... Ways_to_make_an_array_fair.s
 	@echo ... Wild_card_matching_leetcode.obj
 	@echo ... Wild_card_matching_leetcode.i
 	@echo ... Wild_card_matching_leetcode.s

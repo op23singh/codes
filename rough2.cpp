@@ -36,8 +36,8 @@ void dbg_out(Head H, Tail... T) {
 #define dbg(...)
 #endif
 
-void print_array(ll a[],ll n){
-    for(int i=0;i<n;i++)cout<<a[i]<<' ';
+void print_array(ll a[], ll n) {
+    for (int i = 0; i < n; i++)cout << a[i] << ' ';
 }
 
 ll power(long long x, unsigned int y, ll p) {
@@ -60,6 +60,7 @@ void f_io() {
     freopen("error.txt", "w", stderr);
 #endif
 }
+
 template<typename T1, typename T2>
 class Graph {
 public:
@@ -83,18 +84,31 @@ public:
     }
 };
 
+void solve(vector<int> &nums) {
+    int n = nums.size();
+    int meh = 0, msf = INT_MIN;
+    int currstart = 0, finalStart = -1, finalEnd = -1;
+    for (int i = 0; i < n; i++) {
+        meh += nums[i];
+        if (meh > msf) {
+            msf = meh;
+            finalStart = currstart;
+            finalEnd = i;
+        }
+        if (nums[i] > meh) {
+            currstart = i;
+            meh = nums[i];
+        }
+    }
+    cout << finalEnd-finalStart+1 << endl;
+}
+
 int main() {
     fio;
     f_io();
-    string s1,s2,ans1;
-    cin>>s1>>s2;
-    string ans=to_string((stoi(s1,nullptr,2))+(stoi(s2,nullptr,2)));
-    int x=stoi(ans,0,2);
-    cout<<x<<endl;
-//    while(x){
-//        ans1.push_back((char)(x%2));
-//        x/=2;
-//    }
-//    reverse(ans1.begin(),ans1.end());
-//    cout<<ans1<<endl;
+    int n;
+    cin >> n;
+    vector<int> nums(n);
+    for (int i = 0; i < n; i++)cin >> nums[i];
+    solve(nums);
 }
