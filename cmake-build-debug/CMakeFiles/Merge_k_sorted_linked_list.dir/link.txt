@@ -1,3 +1,3 @@
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Merge_k_sorted_linked_list.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Merge_k_sorted_linked_list.dir/objects.a @CMakeFiles\Merge_k_sorted_linked_list.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Merge_k_sorted_linked_list.dir/objects.a -Wl,--no-whole-archive -o Merge_k_sorted_linked_list.exe -Wl,--out-implib,libMerge_k_sorted_linked_list.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Merge_k_sorted_linked_list.dir\linklibs.rsp
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Merge_k_sorted_linked_list.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\Merge_k_sorted_linked_list.dir/objects.a @CMakeFiles\Merge_k_sorted_linked_list.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Merge_k_sorted_linked_list.dir/objects.a -Wl,--no-whole-archive -o Merge_k_sorted_linked_list.exe -Wl,--out-implib,libMerge_k_sorted_linked_list.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Merge_k_sorted_linked_list.dir\linklibs.rsp

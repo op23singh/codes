@@ -1,3 +1,3 @@
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\graph_basic_connected_2dgrid.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\graph_basic_connected_2dgrid.dir/objects.a @CMakeFiles\graph_basic_connected_2dgrid.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\graph_basic_connected_2dgrid.dir/objects.a -Wl,--no-whole-archive -o graph_basic_connected_2dgrid.exe -Wl,--out-implib,libgraph_basic_connected_2dgrid.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\graph_basic_connected_2dgrid.dir\linklibs.rsp
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\graph_basic_connected_2dgrid.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\graph_basic_connected_2dgrid.dir/objects.a @CMakeFiles\graph_basic_connected_2dgrid.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\graph_basic_connected_2dgrid.dir/objects.a -Wl,--no-whole-archive -o graph_basic_connected_2dgrid.exe -Wl,--out-implib,libgraph_basic_connected_2dgrid.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\graph_basic_connected_2dgrid.dir\linklibs.rsp

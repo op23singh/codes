@@ -83,27 +83,30 @@ public:
         }
     }
 };
+
 int numSquares(int n) {
     vector<int> squares;
-    for(int i=1;i<=n;i++){
-        double x=sqrt(i);
-        if(ceil(x)==floor(x)){
+    for (int i = 1; i <= n; i++) {
+        double x = sqrt(i);
+        if (ceil(x) == floor(x)) {
             squares.push_back(i);
         }
     }
-    vector<int> dp(n+1,1000000);
-    dp[0]=0;
-    for(int i=1;i<=n;i++){
-        for(int j=0;j<squares.size();j++){
-            if(i-squares[j]>=0)
-                dp[i]=min(dp[i],1+dp[i-squares[j]]);
+    vector<int> dp(n + 1, 1000000);
+    dp[0] = 0;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 0; j < squares.size(); j++) {
+            if (i - squares[j] >= 0)
+                dp[i] = min(dp[i], 1 + dp[i - squares[j]]);
         }
     }
     return dp[n];
 }
+
 int main() {
     fio;
     f_io();
-    int n;cin>>n;
-    cout<<numSquares(n);
+    int n;
+    cin >> n;
+    cout << numSquares(n);
 }

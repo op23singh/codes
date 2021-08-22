@@ -107,7 +107,6 @@ int solve(vector<int> &prices, vector<vector<int> > &special, vector<int> &needs
     if (n >= row and check == false)return 100000;
     if (check)return 0;
     if (dp[n] != -1)return dp[n];
-    // dbg_out(needs,special[n]);
     if (is_Valid(needs, special[n])) {
         vector<int> tempneeds = needs;
         for (int i = 0; i < needs.size(); i++) {

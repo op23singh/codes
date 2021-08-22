@@ -1,6 +1,6 @@
-The system is: Windows - 10.0.19042 - AMD64
+The system is: Windows - 10.0.19043 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/MinGW/bin/gcc.exe 
+Compiler: C:/TDM-GCC-32/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -13,7 +13,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is GNU, found in "C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/MinGW/bin/g++.exe 
+Compiler: C:/TDM-GCC-32/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -28,61 +28,63 @@ The CXX compiler identification is GNU, found in "C:/Users/HP/Desktop/C++/cmake-
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_dd185/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dd185.dir\build.make CMakeFiles/cmTC_dd185.dir/build
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe cmTC_9e421/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9e421.dir\build.make CMakeFiles/cmTC_9e421.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dd185.dir/CMakeCCompilerABI.c.obj
-C:\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_9e421.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC-32\bin\gcc.exe   -v -o CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c
 Using built-in specs.
-COLLECT_GCC=C:\MinGW\bin\gcc.exe
-Target: x86_64-w64-mingw32
-Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
 Thread model: posix
-gcc version 9.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=haswell' '-march=x86-64'
- c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=haswell -march=x86-64 -auxbase-strip CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\HP\AppData\Local\Temp\ccYiFgPz.s
-GNU C17 (GCC) version 9.2.0 (x86_64-w64-mingw32)
-	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2-p1, MPC version 1.1.0, isl version isl-0.21-GMP
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\HP\AppData\Local\Temp\ccxabVwr.s
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
-ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
-ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
 #include "..." search starts here:
 #include <...> search starts here:
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
 End of search list.
-GNU C17 (GCC) version 9.2.0 (x86_64-w64-mingw32)
-	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2-p1, MPC version 1.1.0, isl version isl-0.21-GMP
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: e890cf9ca63d5e7d146429067ae73dc1
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=haswell' '-march=x86-64'
- c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj C:\Users\HP\AppData\Local\Temp\ccYiFgPz.s
-GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
-COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
-LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=haswell' '-march=x86-64'
-Linking C executable cmTC_dd185.exe
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_dd185.dir\link.txt --verbose=1
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_dd185.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_dd185.dir/objects.a @CMakeFiles\cmTC_dd185.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_dd185.dir/objects.a -Wl,--no-whole-archive -o cmTC_dd185.exe -Wl,--out-implib,libcmTC_dd185.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Compiler executable checksum: 84c8f2a8269d1f793f530dde04d5127f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj C:\Users\HP\AppData\Local\Temp\ccxabVwr.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking C executable cmTC_9e421.exe
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9e421.dir\link.txt --verbose=1
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_9e421.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_9e421.dir/objects.a @CMakeFiles\cmTC_9e421.dir\objects1.rsp
+C:\TDM-GCC-32\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_9e421.dir/objects.a -Wl,--no-whole-archive -o cmTC_9e421.exe -Wl,--out-implib,libcmTC_9e421.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=C:\MinGW\bin\gcc.exe
-COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe
-Target: x86_64-w64-mingw32
-Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
 Thread model: posix
-gcc version 9.2.0 (GCC) 
-COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
-LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd185.exe' '-mtune=haswell' '-march=x86-64'
- c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccswHDbN.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_dd185.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_dd185.dir/objects.a --no-whole-archive --out-implib libcmTC_dd185.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd185.exe' '-mtune=haswell' '-march=x86-64'
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e421.exe' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccVQxYs1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_9e421.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_9e421.dir/objects.a --no-whole-archive --out-implib libcmTC_9e421.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e421.exe' '-mtune=generic' '-march=pentiumpro'
 mingw32-make.exe[1]: Leaving directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -90,98 +92,100 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/HP/Desktop/C++/cmake-build-debu
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include]
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed]
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
   end of search list found
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include]
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed]
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/MinGW/x86_64-w64-mingw32/include]
-  implicit include dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include;C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed;C:/MinGW/x86_64-w64-mingw32/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include] ==> [C:/TDM-GCC-32/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
+  implicit include dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include;C:/TDM-GCC-32/include;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_dd185/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dd185.dir\build.make CMakeFiles/cmTC_dd185.dir/build]
+  ignore line: [Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe cmTC_9e421/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9e421.dir\build.make CMakeFiles/cmTC_9e421.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_dd185.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_9e421.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\TDM-GCC-32\bin\gcc.exe   -v -o CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
-  ignore line: [Target: x86_64-w64-mingw32]
-  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=haswell' '-march=x86-64']
-  ignore line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=haswell -march=x86-64 -auxbase-strip CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\HP\AppData\Local\Temp\ccYiFgPz.s]
-  ignore line: [GNU C17 (GCC) version 9.2.0 (x86_64-w64-mingw32)]
-  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2-p1  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\HP\AppData\Local\Temp\ccxabVwr.s]
+  ignore line: [GNU C17 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"]
-  ignore line: [ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"]
-  ignore line: [ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
   ignore line: [End of search list.]
-  ignore line: [GNU C17 (GCC) version 9.2.0 (x86_64-w64-mingw32)]
-  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2-p1  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: [GNU C17 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: e890cf9ca63d5e7d146429067ae73dc1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=haswell' '-march=x86-64']
-  ignore line: [ c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj C:\Users\HP\AppData\Local\Temp\ccYiFgPz.s]
-  ignore line: [GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1]
-  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../libexec/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/]
-  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../lib/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_dd185.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=haswell' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_dd185.exe]
-  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_dd185.dir\link.txt --verbose=1]
-  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_dd185.dir/objects.a]
-  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_dd185.dir/objects.a @CMakeFiles\cmTC_dd185.dir\objects1.rsp]
-  ignore line: [C:\MinGW\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_dd185.dir/objects.a -Wl --no-whole-archive -o cmTC_dd185.exe -Wl --out-implib libcmTC_dd185.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Compiler executable checksum: 84c8f2a8269d1f793f530dde04d5127f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj C:\Users\HP\AppData\Local\Temp\ccxabVwr.s]
+  ignore line: [GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_9e421.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [Linking C executable cmTC_9e421.exe]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9e421.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_9e421.dir/objects.a]
+  ignore line: [C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_9e421.dir/objects.a @CMakeFiles\cmTC_9e421.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC-32\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_9e421.dir/objects.a -Wl --no-whole-archive -o cmTC_9e421.exe -Wl --out-implib libcmTC_9e421.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe]
-  ignore line: [Target: x86_64-w64-mingw32]
-  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../libexec/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/]
-  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../lib/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd185.exe' '-mtune=haswell' '-march=x86-64']
-  link line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccswHDbN.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_dd185.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_dd185.dir/objects.a --no-whole-archive --out-implib libcmTC_dd185.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o]
-    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe] ==> ignore
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e421.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccVQxYs1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_9e421.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_9e421.dir/objects.a --no-whole-archive --out-implib libcmTC_9e421.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o]
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
-    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccswHDbN.res] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccVQxYs1.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
     arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
     arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
     arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
@@ -189,37 +193,43 @@ Parsed C implicit link information from above output:
     arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
     arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [--sysroot=C:/temp/gcc/dest] ==> ignore
-    arg [-m] ==> ignore
-    arg [i386pep] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--exclude-libs=libpthread.a] ==> ignore
+    arg [--undefined=__xl_f] ==> ignore
     arg [-Bdynamic] ==> ignore
+    arg [--large-address-aware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dd185.exe] ==> ignore
-    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
-    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o] ==> ignore
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0]
-    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..]
+    arg [cmTC_9e421.exe] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_dd185.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_9e421.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_dd185.dll.a] ==> ignore
+    arg [libcmTC_9e421.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
     arg [0] ==> ignore
     arg [-lmingw32] ==> lib [mingw32]
     arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
     arg [-lmoldname] ==> lib [moldname]
     arg [-lmingwex] ==> lib [mingwex]
     arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
     arg [-lpthread] ==> lib [pthread]
     arg [-ladvapi32] ==> lib [advapi32]
     arg [-lshell32] ==> lib [shell32]
@@ -227,87 +237,92 @@ Parsed C implicit link information from above output:
     arg [-lkernel32] ==> lib [kernel32]
     arg [-lmingw32] ==> lib [mingw32]
     arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
     arg [-lmoldname] ==> lib [moldname]
     arg [-lmingwex] ==> lib [mingwex]
     arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o] ==> ignore
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o] ==> ignore
   remove lib [msvcrt]
   remove lib [msvcrt]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0]
-  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> [C:/MinGW/lib]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> [C:/MinGW/lib]
-  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
-  implicit dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0;C:/MinGW/lib/gcc;C:/MinGW/x86_64-w64-mingw32/lib;C:/MinGW/lib]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc] ==> [C:/TDM-GCC-32/lib/gcc]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> [C:/TDM-GCC-32/mingw32/lib]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> [C:/TDM-GCC-32/lib]
+  implicit libs: [mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32]
+  implicit dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0;C:/TDM-GCC-32/lib/gcc;C:/TDM-GCC-32/mingw32/lib;C:/TDM-GCC-32/lib]
   implicit fwks: []
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_3427c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3427c.dir\build.make CMakeFiles/cmTC_3427c.dir/build
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe cmTC_e28c8/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e28c8.dir\build.make CMakeFiles/cmTC_e28c8.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3427c.dir/CMakeCXXCompilerABI.cpp.obj
-C:\MinGW\bin\g++.exe   -v -o CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_e28c8.dir/CMakeCXXCompilerABI.cpp.obj
+C:\TDM-GCC-32\bin\g++.exe   -v -o CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp
 Using built-in specs.
-COLLECT_GCC=C:\MinGW\bin\g++.exe
-Target: x86_64-w64-mingw32
-Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
 Thread model: posix
-gcc version 9.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=haswell' '-march=x86-64'
- c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=haswell -march=x86-64 -auxbase-strip CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\HP\AppData\Local\Temp\ccoE7Jmh.s
-GNU C++14 (GCC) version 9.2.0 (x86_64-w64-mingw32)
-	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2-p1, MPC version 1.1.0, isl version isl-0.21-GMP
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\HP\AppData\Local\Temp\ccvIzBmd.s
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"
-ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"
-ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"
-ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/mingw32"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/backward"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
 #include "..." search starts here:
 #include <...> search starts here:
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed
- c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
 End of search list.
-GNU C++14 (GCC) version 9.2.0 (x86_64-w64-mingw32)
-	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2-p1, MPC version 1.1.0, isl version isl-0.21-GMP
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 59298311a00151dbb7f6557e142e1168
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=haswell' '-march=x86-64'
- c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\HP\AppData\Local\Temp\ccoE7Jmh.s
-GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1
-COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
-LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=haswell' '-march=x86-64'
-Linking CXX executable cmTC_3427c.exe
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3427c.dir\link.txt --verbose=1
-C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_3427c.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3427c.dir/objects.a @CMakeFiles\cmTC_3427c.dir\objects1.rsp
-C:\MinGW\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_3427c.dir/objects.a -Wl,--no-whole-archive -o cmTC_3427c.exe -Wl,--out-implib,libcmTC_3427c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Compiler executable checksum: 3069c1276a5c94a09925c71f29eaa033
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\HP\AppData\Local\Temp\ccvIzBmd.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking CXX executable cmTC_e28c8.exe
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e28c8.dir\link.txt --verbose=1
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e28c8.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_e28c8.dir/objects.a @CMakeFiles\cmTC_e28c8.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_e28c8.dir/objects.a -Wl,--no-whole-archive -o cmTC_e28c8.exe -Wl,--out-implib,libcmTC_e28c8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=C:\MinGW\bin\g++.exe
-COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe
-Target: x86_64-w64-mingw32
-Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
 Thread model: posix
-gcc version 9.2.0 (GCC) 
-COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/
-LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3427c.exe' '-mtune=haswell' '-march=x86-64'
- c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccVM6fMh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_3427c.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_3427c.dir/objects.a --no-whole-archive --out-implib libcmTC_3427c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3427c.exe' '-mtune=haswell' '-march=x86-64'
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e28c8.exe' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccPU9FdL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_e28c8.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_e28c8.dir/objects.a --no-whole-archive --out-implib libcmTC_e28c8.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e28c8.exe' '-mtune=generic' '-march=pentiumpro'
 mingw32-make.exe[1]: Leaving directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -315,110 +330,112 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/HP/Desktop/C++/cmake-build-debu
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0]
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32]
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward]
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include]
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed]
-    add: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
   end of search list found
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0] ==> [C:/MinGW/include/c++/9.2.0]
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32] ==> [C:/MinGW/include/c++/9.2.0/x86_64-w64-mingw32]
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward] ==> [C:/MinGW/include/c++/9.2.0/backward]
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include]
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed]
-  collapse include dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/MinGW/x86_64-w64-mingw32/include]
-  implicit include dirs: [C:/MinGW/include/c++/9.2.0;C:/MinGW/include/c++/9.2.0/x86_64-w64-mingw32;C:/MinGW/include/c++/9.2.0/backward;C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include;C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed;C:/MinGW/x86_64-w64-mingw32/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/mingw32]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/backward]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include] ==> [C:/TDM-GCC-32/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
+  implicit include dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/mingw32;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/backward;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include;C:/TDM-GCC-32/include;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_3427c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3427c.dir\build.make CMakeFiles/cmTC_3427c.dir/build]
+  ignore line: [Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe cmTC_e28c8/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e28c8.dir\build.make CMakeFiles/cmTC_e28c8.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_3427c.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\MinGW\bin\g++.exe   -v -o CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e28c8.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\TDM-GCC-32\bin\g++.exe   -v -o CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\MinGW\bin\g++.exe]
-  ignore line: [Target: x86_64-w64-mingw32]
-  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=haswell' '-march=x86-64']
-  ignore line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=haswell -march=x86-64 -auxbase-strip CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\HP\AppData\Local\Temp\ccoE7Jmh.s]
-  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-w64-mingw32)]
-  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2-p1  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\HP\AppData\Local\Temp\ccvIzBmd.s]
+  ignore line: [GNU C++14 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include"]
-  ignore line: [ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"]
-  ignore line: [ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/mingw32"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed]
-  ignore line: [ c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
   ignore line: [End of search list.]
-  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-w64-mingw32)]
-  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2-p1  MPC version 1.1.0  isl version isl-0.21-GMP]
+  ignore line: [GNU C++14 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 59298311a00151dbb7f6557e142e1168]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=haswell' '-march=x86-64']
-  ignore line: [ c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\HP\AppData\Local\Temp\ccoE7Jmh.s]
-  ignore line: [GNU assembler version 2.33.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.33.1]
-  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../libexec/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/]
-  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../lib/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3427c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=haswell' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_3427c.exe]
-  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3427c.dir\link.txt --verbose=1]
-  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_3427c.dir/objects.a]
-  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3427c.dir/objects.a @CMakeFiles\cmTC_3427c.dir\objects1.rsp]
-  ignore line: [C:\MinGW\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_3427c.dir/objects.a -Wl --no-whole-archive -o cmTC_3427c.exe -Wl --out-implib libcmTC_3427c.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Compiler executable checksum: 3069c1276a5c94a09925c71f29eaa033]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\HP\AppData\Local\Temp\ccvIzBmd.s]
+  ignore line: [GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e28c8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [Linking CXX executable cmTC_e28c8.exe]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e28c8.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e28c8.dir/objects.a]
+  ignore line: [C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_e28c8.dir/objects.a @CMakeFiles\cmTC_e28c8.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC-32\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_e28c8.dir/objects.a -Wl --no-whole-archive -o cmTC_e28c8.exe -Wl --out-implib libcmTC_e28c8.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\MinGW\bin\g++.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe]
-  ignore line: [Target: x86_64-w64-mingw32]
-  ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --with-tune=haswell --enable-threads=posix --enable-libgomp]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../libexec/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/]
-  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/]
-  ignore line: [c:/mingw/bin/../lib/gcc/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3427c.exe' '-mtune=haswell' '-march=x86-64']
-  link line: [ c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccVM6fMh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_3427c.exe c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../.. --whole-archive CMakeFiles\cmTC_3427c.dir/objects.a --no-whole-archive --out-implib libcmTC_3427c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o]
-    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/collect2.exe] ==> ignore
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e28c8.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccPU9FdL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_e28c8.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_e28c8.dir/objects.a --no-whole-archive --out-implib libcmTC_e28c8.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o]
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
-    arg [c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/9.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccVM6fMh.res] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccPU9FdL.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
     arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
     arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
     arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
@@ -426,38 +443,46 @@ Parsed CXX implicit link information from above output:
     arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
     arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [--sysroot=C:/temp/gcc/dest] ==> ignore
-    arg [-m] ==> ignore
-    arg [i386pep] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--exclude-libs=libpthread.a] ==> ignore
+    arg [--undefined=__xl_f] ==> ignore
     arg [-Bdynamic] ==> ignore
+    arg [--large-address-aware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3427c.exe] ==> ignore
-    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
-    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtbegin.o] ==> ignore
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0]
-    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib]
-    arg [-Lc:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..]
+    arg [cmTC_e28c8.exe] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_3427c.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_e28c8.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_3427c.dll.a] ==> ignore
+    arg [libcmTC_e28c8.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
     arg [0] ==> ignore
+    arg [-Bstatic] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
+    arg [-Bdynamic] ==> ignore
     arg [-lmingw32] ==> lib [mingw32]
     arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
     arg [-lmoldname] ==> lib [moldname]
     arg [-lmingwex] ==> lib [mingwex]
     arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
     arg [-lpthread] ==> lib [pthread]
     arg [-ladvapi32] ==> lib [advapi32]
     arg [-lshell32] ==> lib [shell32]
@@ -465,20 +490,545 @@ Parsed CXX implicit link information from above output:
     arg [-lkernel32] ==> lib [kernel32]
     arg [-lmingw32] ==> lib [mingw32]
     arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
     arg [-lmoldname] ==> lib [moldname]
     arg [-lmingwex] ==> lib [mingwex]
     arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/crtend.o] ==> ignore
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o] ==> ignore
   remove lib [msvcrt]
   remove lib [msvcrt]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0] ==> [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0]
-  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../lib] ==> [C:/MinGW/lib]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/MinGW/x86_64-w64-mingw32/lib]
-  collapse library dir [c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../..] ==> [C:/MinGW/lib]
-  implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
-  implicit dirs: [C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0;C:/MinGW/lib/gcc;C:/MinGW/x86_64-w64-mingw32/lib;C:/MinGW/lib]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc] ==> [C:/TDM-GCC-32/lib/gcc]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> [C:/TDM-GCC-32/mingw32/lib]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> [C:/TDM-GCC-32/lib]
+  implicit libs: [stdc++;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32]
+  implicit dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0;C:/TDM-GCC-32/lib/gcc;C:/TDM-GCC-32/mingw32/lib;C:/TDM-GCC-32/lib]
+  implicit fwks: []
+
+
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/TDM-GCC-32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/TDM-GCC-32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_910d1/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_910d1.dir\build.make CMakeFiles/cmTC_910d1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_910d1.dir/CMakeCCompilerABI.c.obj
+C:\TDM-GCC-32\bin\gcc.exe   -v -o CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\HP\AppData\Local\Temp\ccnBnmG6.s
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C17 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 84c8f2a8269d1f793f530dde04d5127f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj C:\Users\HP\AppData\Local\Temp\ccnBnmG6.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking C executable cmTC_910d1.exe
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_910d1.dir\link.txt --verbose=1
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_910d1.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_910d1.dir/objects.a @CMakeFiles\cmTC_910d1.dir\objects1.rsp
+C:\TDM-GCC-32\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_910d1.dir/objects.a -Wl,--no-whole-archive -o cmTC_910d1.exe -Wl,--out-implib,libcmTC_910d1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_910d1.exe' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccUBWvS1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_910d1.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_910d1.dir/objects.a --no-whole-archive --out-implib libcmTC_910d1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_910d1.exe' '-mtune=generic' '-march=pentiumpro'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
+  end of search list found
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include] ==> [C:/TDM-GCC-32/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
+  implicit include dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include;C:/TDM-GCC-32/include;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_910d1/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_910d1.dir\build.make CMakeFiles/cmTC_910d1.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_910d1.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\TDM-GCC-32\bin\gcc.exe   -v -o CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\HP\AppData\Local\Temp\ccnBnmG6.s]
+  ignore line: [GNU C17 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 84c8f2a8269d1f793f530dde04d5127f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj C:\Users\HP\AppData\Local\Temp\ccnBnmG6.s]
+  ignore line: [GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_910d1.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [Linking C executable cmTC_910d1.exe]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_910d1.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_910d1.dir/objects.a]
+  ignore line: [C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_910d1.dir/objects.a @CMakeFiles\cmTC_910d1.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC-32\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_910d1.dir/objects.a -Wl --no-whole-archive -o cmTC_910d1.exe -Wl --out-implib libcmTC_910d1.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_910d1.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccUBWvS1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_910d1.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_910d1.dir/objects.a --no-whole-archive --out-implib libcmTC_910d1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o]
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\ccUBWvS1.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--exclude-libs=libpthread.a] ==> ignore
+    arg [--undefined=__xl_f] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--large-address-aware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_910d1.exe] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_910d1.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_910d1.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o] ==> [C:/TDM-GCC-32/lib/crt2.o]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtbegin.o]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o] ==> [C:/TDM-GCC-32/mingw32/lib/default-manifest.o]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtend.o]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc] ==> [C:/TDM-GCC-32/lib/gcc]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> [C:/TDM-GCC-32/mingw32/lib]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> [C:/TDM-GCC-32/lib]
+  implicit libs: [mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32]
+  implicit objs: [C:/TDM-GCC-32/lib/crt2.o;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtbegin.o;C:/TDM-GCC-32/mingw32/lib/default-manifest.o;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtend.o]
+  implicit dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0;C:/TDM-GCC-32/lib/gcc;C:/TDM-GCC-32/mingw32/lib;C:/TDM-GCC-32/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_b53fe/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b53fe.dir\build.make CMakeFiles/cmTC_b53fe.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b53fe.dir/CMakeCXXCompilerABI.cpp.obj
+C:\TDM-GCC-32\bin\g++.exe   -v -o CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\HP\AppData\Local\Temp\ccFRqAph.s
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/mingw32"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/backward"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"
+ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"
+ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed
+End of search list.
+GNU C++14 (tdm-1) version 10.3.0 (mingw32)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3069c1276a5c94a09925c71f29eaa033
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\HP\AppData\Local\Temp\ccFRqAph.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking CXX executable cmTC_b53fe.exe
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b53fe.dir\link.txt --verbose=1
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b53fe.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_b53fe.dir/objects.a @CMakeFiles\cmTC_b53fe.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_b53fe.dir/objects.a -Wl,--no-whole-archive -o cmTC_b53fe.exe -Wl,--out-implib,libcmTC_b53fe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.0 (tdm-1) 
+COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../libexec/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/;C:/TDM-GCC-32/bin/../lib/gcc/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/;C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b53fe.exe' '-mtune=generic' '-march=pentiumpro'
+ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\cc0FiU0W.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_b53fe.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_b53fe.dir/objects.a --no-whole-archive --out-implib libcmTC_b53fe.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b53fe.exe' '-mtune=generic' '-march=pentiumpro'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+    add: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
+  end of search list found
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/mingw32]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/backward]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include] ==> [C:/TDM-GCC-32/include]
+  collapse include dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
+  implicit include dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/mingw32;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/backward;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include;C:/TDM-GCC-32/include;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/TDM-GCC-32/bin/mingw32-make.exe -f Makefile cmTC_b53fe/fast && C:/TDM-GCC-32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b53fe.dir\build.make CMakeFiles/cmTC_b53fe.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b53fe.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\TDM-GCC-32\bin\g++.exe   -v -o CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/ -D_REENTRANT C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\HP\AppData\Local\Temp\ccFRqAph.s]
+  ignore line: [GNU C++14 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/mingw32"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "C:/TDM-GCC-32/lib/gcc/../../lib/gcc/mingw32/10.3.0/../../../../mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/mingw32]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include/c++/backward]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../include]
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (tdm-1) version 10.3.0 (mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3069c1276a5c94a09925c71f29eaa033]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\HP\AppData\Local\Temp\ccFRqAph.s]
+  ignore line: [GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b53fe.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [Linking CXX executable cmTC_b53fe.exe]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b53fe.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b53fe.dir/objects.a]
+  ignore line: [C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\cmTC_b53fe.dir/objects.a @CMakeFiles\cmTC_b53fe.dir\objects1.rsp]
+  ignore line: [C:\TDM-GCC-32\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_b53fe.dir/objects.a -Wl --no-whole-archive -o cmTC_b53fe.exe -Wl --out-implib libcmTC_b53fe.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\TDM-GCC-32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --disable-build-format-warnings --with-gnu-ld --disable-werror --enable-nls --enable-mingw-wildcard --disable-win32-registry --disable-symvers --enable-large-address-aware --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-checking=release --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.0 (tdm-1) ]
+  ignore line: [COMPILER_PATH=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../libexec/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/]
+  ignore line: [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b53fe.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\cc0FiU0W.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic --large-address-aware -o cmTC_b53fe.exe C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0 -LC:/TDM-GCC-32/bin/../lib/gcc -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib -LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../.. --whole-archive CMakeFiles\cmTC_b53fe.dir/objects.a --no-whole-archive --out-implib libcmTC_b53fe.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o]
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/TDM-GCC-32/bin/../libexec/gcc/mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\HP\AppData\Local\Temp\cc0FiU0W.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--exclude-libs=libpthread.a] ==> ignore
+    arg [--undefined=__xl_f] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--large-address-aware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b53fe.exe] ==> ignore
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib]
+    arg [-LC:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_b53fe.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_b53fe.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o]
+    arg [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o] ==> obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../crt2.o] ==> [C:/TDM-GCC-32/lib/crt2.o]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtbegin.o] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtbegin.o]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib/default-manifest.o] ==> [C:/TDM-GCC-32/mingw32/lib/default-manifest.o]
+  collapse obj [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/crtend.o] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtend.o]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0] ==> [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc] ==> [C:/TDM-GCC-32/lib/gcc]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../../../mingw32/lib] ==> [C:/TDM-GCC-32/mingw32/lib]
+  collapse library dir [C:/TDM-GCC-32/bin/../lib/gcc/mingw32/10.3.0/../../..] ==> [C:/TDM-GCC-32/lib]
+  implicit libs: [stdc++;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32]
+  implicit objs: [C:/TDM-GCC-32/lib/crt2.o;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtbegin.o;C:/TDM-GCC-32/mingw32/lib/default-manifest.o;C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/crtend.o]
+  implicit dirs: [C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0;C:/TDM-GCC-32/lib/gcc;C:/TDM-GCC-32/mingw32/lib;C:/TDM-GCC-32/lib]
   implicit fwks: []
 
 

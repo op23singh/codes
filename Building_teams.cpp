@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
-
+#include <graphics.h>
 #define rep(i, n) for(int i=0;i<n;i++)
 #define ll long long int
 #define pb push_back
-#define endl '\n'
 #define vi vector<ll>
 #define mod 1000000007
 #define vii vector<int>

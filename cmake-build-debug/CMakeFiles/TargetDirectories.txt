@@ -108,6 +108,7 @@ C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Merge_k_sorted_linked_list.
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Word_search_II.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/3_Sum_leetcoode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/3_sum_closest_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/rough3.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/letter_combinations_of_phone_number_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Merge_intervals_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/find_first_and_last_element_in_sorted_array_leetcode.dir
@@ -115,6 +116,8 @@ C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Path_in_Zig_Zag_Labelled_Tr
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Number_of_Islands_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Gas_statIon_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Find_Peak_element_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Steven_and_strings_amazon.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Making_a_large_island_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Spiral_Matrix_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Surrounded_Regions_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Evaluate_reverse_poish_notataion_leetcode.dir
@@ -124,6 +127,7 @@ C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Longest_consecutive_sequenc
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Fraction_to_recurring_Decimal_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Course_schedule_II_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Pokemon_army_codeforces.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Minimum_add_to_make_a_parenthesis_valid.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Increasing_triplet_subsequence_leetcode_.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/increasing_triplet_subsequence_method_2_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Top_k_frequent_words_leetcode.dir
@@ -153,6 +157,7 @@ C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Find_Count_of_single_valued
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Catch_Theives_Salesforces_interview.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/oops_first_program_C++.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Max_Area_of_Island_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Coin_Change_2_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Max_consecutive_ones_III.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Maximum_length_of_concatenated_string_of_unique_characters_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Sqrt_of_number_using_binary_search.dir
@@ -163,5 +168,13 @@ C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Greatest_sum_divisible_by_3
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/oops_2nd_program.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Number_of_provinces_leetcode.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Bitwise_and_of_number_range_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/First_unique_number_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Remove_Duplicate_characters_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/rough4.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Longest_repeating_character_replacement_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Student_Attendance_Record_II_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Valid_parenthesis_string_leetcode.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Rod_cutting_dp_leetocde.dir
+C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/Shortest_subarray_with_sum_atleast_k.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/HP/Desktop/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

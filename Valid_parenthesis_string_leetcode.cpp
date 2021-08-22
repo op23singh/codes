@@ -61,29 +61,6 @@ void f_io() {
 #endif
 }
 
-template<typename T1, typename T2>
-class Graph {
-public:
-    unordered_map<T1, vector<T2>> adj;
-
-    Graph() = default;
-
-    void add_edge(T1 n1, T2 n2, bool bidr = true) {
-        adj[n1].pb(n2);
-        if (bidr)adj[n2].pb(n2);
-    }
-
-    void print() {
-        for (auto ele:adj) {
-            cout << ele.first << "->";
-            for (auto el:ele.second) {
-                cout << el << ", ";
-            }
-            cout << endl;
-        }
-    }
-};
-
 int dp[101][101];
 
 bool solve(string &s, int n, int ans) {
@@ -97,7 +74,9 @@ bool solve(string &s, int n, int ans) {
         if (ans <= 0)return false;
         dp[n][ans] = solve(s, n + 1, ans - 1);
     } else {
-        dp[n][ans] = solve(s, n + 1, ans + 1) or ((ans > 0) ? solve(s, n + 1, ans - 1) : 0) or solve(s, n + 1, ans);
+        dp[n][ans] = (solve(s, n + 1, ans + 1) or
+                      ((ans > 0) ? solve(s, n + 1, ans - 1) : 0) or
+                      solve(s, n + 1, ans));
     }
     return dp[n][ans];
 }

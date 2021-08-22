@@ -86,21 +86,22 @@ public:
 
 int N;
 int dp[100001][5];
+
 int solve(vector<int> &prices, int n, int k) {
-    if (k ==4 and n<=N or k<4 and n==N or k>4)return 0;
-    if(dp[n][k]!=-1)return dp[n][k];
+    if (k == 4 and n <= N or k < 4 and n == N or k > 4)return 0;
+    if (dp[n][k] != -1)return dp[n][k];
     else {
         if (k % 2) {
-            return dp[n][k]=max(prices[n] + solve(prices, n + 1, k + 1), solve(prices, n + 1, k));
+            return dp[n][k] = max(prices[n] + solve(prices, n + 1, k + 1), solve(prices, n + 1, k));
         } else {
-            return dp[n][k]=max(-prices[n] + solve(prices, n + 1, k + 1), solve(prices, n + 1, k));
+            return dp[n][k] = max(-prices[n] + solve(prices, n + 1, k + 1), solve(prices, n + 1, k));
         }
     }
 }
 
 int maxProfit(vector<int> &prices) {
     N = prices.size();
-    memset(dp,-1,sizeof(dp));
+    memset(dp, -1, sizeof(dp));
     return solve(prices, 0, 0);
 }
 
