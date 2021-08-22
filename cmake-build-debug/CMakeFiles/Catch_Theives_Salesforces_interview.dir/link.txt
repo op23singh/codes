@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Catch_Theives_Salesforces_interview.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\Catch_Theives_Salesforces_interview.dir/objects.a @CMakeFiles\Catch_Theives_Salesforces_interview.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Catch_Theives_Salesforces_interview.dir/objects.a -Wl,--no-whole-archive -o Catch_Theives_Salesforces_interview.exe -Wl,--out-implib,libCatch_Theives_Salesforces_interview.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Catch_Theives_Salesforces_interview.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+C:\Users\HP\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\oops_2nd_program.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\oops_2nd_program.dir/objects.a @CMakeFiles\oops_2nd_program.dir\objects1.rsp
+C:\TDM-GCC-32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\oops_2nd_program.dir/objects.a -Wl,--no-whole-archive -o oops_2nd_program.exe -Wl,--out-implib,liboops_2nd_program.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\oops_2nd_program.dir\linklibs.rsp
